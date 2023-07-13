@@ -1,0 +1,49 @@
+
+[SiteRule.Item.sci]
+Type = "学院"
+Site = "理学院"
+Section = "理学院"
+Tag = "sci"
+URL = "https://sci.hdu.edu.cn"
+ListRuleUrl = ".tit a[href]"
+ListRulesTitle = ".tit .btt"
+ListRulesDate = ".tit .fbsj"
+ContentRule = "div.wp_articlecontent"
+TittleRule = "title"
+
+[SiteRule.Item.sci.Item]
+
+[SiteRule.Item.sci.Item.news]
+Type = "学院"
+Site = "新闻动态"
+Section = "新闻动态"
+Tag = "sci_news"
+URL = "https://sci.hdu.edu.cn/3014/list.htm"
+
+[SiteRule.Item.sci.Item.bkedu]
+Type = "学院"
+Site = "本科生教育"
+Section = "本科生教育"
+Tag = "sci_bkedu"
+URL = "https://sci.hdu.edu.cn/3020/list.htm"
+
+[SiteRule.Item.sci.Item.yjsedu]
+Type = "学院"
+Site = "研究生培养"
+Section = "研究生培养"
+Tag = "sci_yjsedu"
+URL = "https://sci.hdu.edu.cn/3025/list.htm"
+
+[SiteRule.Item.sci.Item.student]
+Type = "学院"
+Site = "学生工作"
+Section = "学生工作"
+Tag = "sci_student"
+URL = "https://sci.hdu.edu.cn/3006/list.htm"
+
+[SiteRule.Item.sci.Item.service]
+Type = "学院"
+Site = "服务中心"
+Section = "服务中心"
+Tag = "sci_service"
+URL = "https://sci.hdu.edu.cn/3048/list.htm"

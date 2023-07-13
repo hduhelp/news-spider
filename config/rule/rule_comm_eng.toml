@@ -1,0 +1,55 @@
+[SiteRule.Item.comm]
+Type = "学院"
+Site = "通信工程学院"
+Section = "通信"
+Tag = "comm"
+URL = "https://comm.hdu.edu.cn"
+ListRuleUrl = "ul.wp_article_list>li>div>span.Article_Title>a"
+ListRulesTitle = "ul.wp_article_list>li>div>span.Article_Title>a"
+ListRulesDate = "ul.wp_article_list>li>div>span.Article_PublishDate"
+ContentRule = "div.wp_articlecontent"
+TittleRule = "title"
+
+[SiteRule.Item.comm.Item]
+
+[SiteRule.Item.comm.Item.news]
+Type = "学院"
+Site = "学院新闻"
+Section = "学院新闻"
+Tag = "comm_news"
+URL = "https://comm.hdu.edu.cn/xyxw/list.htm"
+
+[SiteRule.Item.comm.Item.notice]
+Type = "学院"
+Site = "通知公告"
+Section = "通知公告"
+Tag = "comm_notice"
+URL = "https://comm.hdu.edu.cn/tzgg/list.htm"
+
+[SiteRule.Item.comm.Item.edu]
+Type = "学院"
+Site = "教学动态"
+Section = "教学动态"
+Tag = "comm_edu"
+URL = "https://comm.hdu.edu.cn/jxdt/list.htm"
+
+[SiteRule.Item.comm.Item.student]
+Type = "学院"
+Site = "学生动态"
+Section = "学生动态"
+Tag = "comm_student"
+URL = "https://comm.hdu.edu.cn/xsdt/list.htm"
+
+[SiteRule.Item.comm.Item.offer]
+Type = "学院"
+Site = "招聘信息"
+Section = "招聘信息"
+Tag = "comm_offer"
+URL = "https://comm.hdu.edu.cn/zpxx/list.htm"
+
+[SiteRule.Item.comm.Item.alumni]
+Type = "学院"
+Site = "优秀校友"
+Section = "优秀校友"
+Tag = "comm_alumni"
+URL = "https://comm.hdu.edu.cn/yxxy_2759/list.htm"

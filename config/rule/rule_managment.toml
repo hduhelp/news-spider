@@ -1,0 +1,49 @@
+
+[SiteRule.Item.glxy]
+Type = "学院"
+Site = "管理学院"
+Section = "管院"
+Tag = "glxy"
+URL = "https://management.hdu.edu.cn"
+ListRuleUrl = "ul.wp_article_list>li>div>span.Article_Title>a"
+ListRulesTitle = "ul.wp_article_list>li>div>span.Article_Title>a"
+ListRulesDate = "ul.wp_article_list>li>div>span.Article_PublishDate"
+ContentRule = "div.wp_articlecontent"
+TittleRule = "h1.arti_title"
+
+[SiteRule.Item.glxy.Item]
+
+[SiteRule.Item.glxy.Item.student]
+Type = "学院"
+Site = "学生天地"
+Section = "学生天地"
+Tag = "glxy_student"
+URL = "https://management.hdu.edu.cn/956/list.htm"
+
+[SiteRule.Item.glxy.Item.news]
+Type = "学院"
+Site = "学院动态"
+Section = "学院动态"
+Tag = "glxy_news"
+URL = "https://management.hdu.edu.cn/963/list.htm"
+
+[SiteRule.Item.glxy.Item.notice]
+Type = "学院"
+Site = "通知公告"
+Section = "通知公告"
+Tag = "glxy_notice"
+URL = "https://management.hdu.edu.cn/965/list.htm"
+
+[SiteRule.Item.glxy.Item.edu]
+Type = "学院"
+Site = "教学工作"
+Section = "教学工作"
+Tag = "glxy_edu"
+URL = "https://management.hdu.edu.cn/3558/list.htm"
+
+[SiteRule.Item.glxy.Item.research]
+Type = "学院"
+Site = "科研动态"
+Section = "科研动态"
+Tag = "glxy_research"
+URL = "https://management.hdu.edu.cn/3559/list.htm"

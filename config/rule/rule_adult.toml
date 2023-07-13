@@ -1,0 +1,28 @@
+
+[SiteRule.Item.adult]
+Type = "学院"
+Site = "继教学院 继教中心"
+Section = "成教"
+Tag = "adult"
+URL = "https://adultedu.hdu.edu.cn"
+ListRuleUrl = ".post-news a"
+ListRulesTitle = ".post-news a"
+ListRulesDate = ".post-news .meta-time"
+ContentRule = ".wp_articlecontent"
+TittleRule = "title"
+
+[SiteRule.Item.adult.Item]
+
+[SiteRule.Item.adult.Item.news]
+Type = "学院"
+Site = "学院动态"
+Section = "学院动态"
+Tag = "adult_news"
+URL = "https://adultedu.hdu.edu.cn/5156/list.htm"
+
+[SiteRule.Item.adult.Item.new]
+Type = "学院"
+Site = "招生信息"
+Section = "招生信息"
+Tag = "adult_new"
+URL = "https://adultedu.hdu.edu.cn/5156/list.htm"

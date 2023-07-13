@@ -1,0 +1,63 @@
+    [SiteRule.Item.jsj]
+    Type = "学院"
+    Site = "计算机学院"
+    Section = "计院"
+    Tag = "jsj"
+    URL = "https://computer.hdu.edu.cn"
+    ListRuleUrl = "div>ul.news_list>li>a"
+    ListRulesTitle = "div>ul.news_list>li>a"
+    ListRulesDate = "div>ul.news_list>li>span.date"
+    ContentRule = "div.wp_articlecontent"
+
+      [SiteRule.Item.jsj.Item]
+
+        [SiteRule.Item.jsj.Item.notice]
+        Type = "学院"
+        Site = "通知公告"
+        Section = "通知公告"
+        Tag = "jsj_notice"
+        URL = "https://computer.hdu.edu.cn/1377/list.htm"
+
+        [SiteRule.Item.jsj.Item.regularnotice]
+        Type = "学院"
+        Site = "本科教育"
+        Section = "通知公告"
+        Tag = "jsj_regularnotice"
+        URL = "https://computer.hdu.edu.cn/1345/list.htm"
+
+        [SiteRule.Item.jsj.Item.yjsnotice]
+        Type = "学院"
+        Site = "研究生教育"
+        Section = "研究生教育"
+        Tag = "jsj_yjsnotice"
+        URL = "https://computer.hdu.edu.cn/1353/list.htm"
+
+        [SiteRule.Item.jsj.Item.news]
+        Type = "学院"
+        Site = "学院新闻"
+        Section = "学院新闻"
+        Tag = "jsj_news"
+        URL = "https://computer.hdu.edu.cn/1376/list.htm"
+
+        [SiteRule.Item.jsj.Item.student]
+        Type = "学院"
+        Site = "学工信息"
+        Section = "学工信息"
+        Tag = "jsj_student"
+        URL = "https://computer.hdu.edu.cn/1370/list.htm"
+
+        [SiteRule.Item.jsj.Item.research]
+        Type = "学院"
+        Site = "科研信息"
+        Section = "科研信息"
+        Tag = "jsj_research"
+        URL = "https://computer.hdu.edu.cn/1362/list.htm"
+
+        [SiteRule.Item.jsj.Item.science]
+        Type = "学院"
+        Site = "学术动态"
+        Section = "学术动态"
+        Tag = "jsj_science"
+        URL = "https://computer.hdu.edu.cn/1361/list.htm"
+
+

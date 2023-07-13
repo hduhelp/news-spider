@@ -1,0 +1,35 @@
+
+[SiteRule.Item.marx]
+Type = "学院"
+Site = "马克思主义学院"
+Section = "马克思"
+Tag = "marx"
+URL = "https://marxnew.hdu.edu.cn"
+ListRuleUrl = "#wp_news_w30 a[title]"
+ListRulesTitle = "#wp_news_w30 a[title]"
+ListRulesDate = "#wp_news_w30 cite"
+ContentRule = "div.wp_articlecontent"
+TittleRule = "title"
+
+[SiteRule.Item.marx.Item]
+
+[SiteRule.Item.marx.Item.news]
+Type = "学院"
+Site = "学院新闻"
+Section = "学院新闻"
+Tag = "marx_news"
+URL = "https://marxnew.hdu.edu.cn/3220/list.htm"
+
+[SiteRule.Item.marx.Item.science]
+Type = "学院"
+Site = "科研动态"
+Section = "科研动态"
+Tag = "marx_science"
+URL = "https://marxnew.hdu.edu.cn/3223/list.htm"
+
+[SiteRule.Item.marx.Item.notice]
+Type = "学院"
+Site = "学院通知"
+Section = "学院通知"
+Tag = "marx_notice"
+URL = "https://marxnew.hdu.edu.cn/3219/list.htm"

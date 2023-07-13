@@ -1,0 +1,56 @@
+
+[SiteRule.Item.joint]
+Type = "学院"
+Site = "杭电圣光机联合学院"
+Section = "圣光机"
+Tag = "joint"
+URL = "https://joint.hdu.edu.cn"
+ListRuleUrl = "ul.wp_article_list>li>div>span.Article_Title>a"
+ListRulesTitle = "ul.wp_article_list>li>div>span.Article_Title>a"
+ListRulesDate = "ul.wp_article_list>li>div>span.Article_PublishDate"
+ContentRule = "div.wp_articlecontent"
+TittleRule = "title"
+
+[SiteRule.Item.joint.Item]
+
+[SiteRule.Item.joint.Item.news]
+Type = "学院"
+Site = "学院新闻"
+Section = "新闻"
+Tag = "joint_news"
+URL = "https://joint.hdu.edu.cn/xyxw/list.htm"
+
+[SiteRule.Item.joint.Item.science]
+Type = "学院"
+Site = "科研动态"
+Section = "科研动态"
+Tag = "joint_science"
+URL = "https://joint.hdu.edu.cn/3692/list.htm"
+
+[SiteRule.Item.joint.Item.bkedu]
+Type = "学院"
+Site = "本科教学"
+Section = "本科教学"
+Tag = "joint_bkedu"
+URL = "https://joint.hdu.edu.cn/bkjxtz/list.htm"
+
+[SiteRule.Item.joint.Item.yjsedu]
+Type = "学院"
+Site = "研究生教学"
+Section = "研究生教学"
+Tag = "joint_yjsedu"
+URL = "https://joint.hdu.edu.cn/yjsjxtz/list.htm"
+
+[SiteRule.Item.joint.Item.offer]
+Type = "学院"
+Site = "招生就业"
+Section = "招生就业"
+Tag = "joint_offer"
+URL = "https://joint.hdu.edu.cn/zsjy/list.htm"
+
+[SiteRule.Item.joint.Item.talent]
+Type = "学院"
+Site = "人才引进"
+Section = "人才引进"
+Tag = "joint_talent"
+URL = "https://joint.hdu.edu.cn/3694/list.htm"

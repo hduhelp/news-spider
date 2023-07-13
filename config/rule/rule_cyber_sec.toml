@@ -1,0 +1,48 @@
+[SiteRule.Item.cbs]
+Type = "学院"
+Site = "网安学院"
+Section = "网安"
+Tag = "cbs"
+URL = "https://cbs.hdu.edu.cn"
+ListRuleUrl = "#wp_news_w6 a[href]"
+ListRulesTitle = "#wp_news_w6 a[href]"
+ListRulesDate = "#wp_news_w6 span"
+ContentRule = "div.wp_articlecontent"
+TittleRule = "div[portletmode] div.title.row"
+
+[SiteRule.Item.cbs.Item]
+
+[SiteRule.Item.cbs.Item.student]
+Type = "学院"
+Site = "学生活动"
+Section = "学生活动"
+Tag = "cbs_student"
+URL = "https://cbs.hdu.edu.cn/2599/list.htm"
+
+[SiteRule.Item.cbs.Item.news]
+Type = "学院"
+Site = "学院动态"
+Section = "学院动态"
+Tag = "cbs_news"
+URL = "https://cbs.hdu.edu.cn/2584/list.htm"
+
+[SiteRule.Item.cbs.Item.stunotice]
+Type = "学院"
+Site = "学工通知"
+Section = "学工通知"
+Tag = "cbs_stunotice"
+URL = "https://cbs.hdu.edu.cn/2600/list.htm"
+
+[SiteRule.Item.cbs.Item.edunotice]
+Type = "学院"
+Site = "教学通知"
+Section = "教学通知"
+Tag = "cbs_edunotice"
+URL = "https://cbs.hdu.edu.cn/2586/list.htm"
+
+[SiteRule.Item.cbs.Item.sciencenotice]
+Type = "学院"
+Site = "科研通知"
+Section = "科研通知"
+Tag = "cbs_sciencenotice"
+URL = "https://cbs.hdu.edu.cn/2587/list.htm"

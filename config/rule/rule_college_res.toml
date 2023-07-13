@@ -1,0 +1,41 @@
+[SiteRule.Item.casee]
+Type = "学院"
+Site = "浙江高等教育研究院"
+Section = "高教"
+Tag = "casee"
+URL = "https://casee.hdu.edu.cn"
+ListRuleUrl = "ul.wp_article_list>li>div>span.Article_Title>a"
+ListRulesTitle = "ul.wp_article_list>li>div>span.Article_Title>a"
+ListRulesDate = "ul.wp_article_list>li>div>span.Article_PublishDate"
+ContentRule = "div.wp_articlecontent"
+TittleRule = "title"
+
+[SiteRule.Item.casee.Item]
+
+[SiteRule.Item.casee.Item.news]
+Type = "学院"
+Site = "新闻中心"
+Section = "新闻中心"
+Tag = "casee_news"
+URL = "https://casee.hdu.edu.cn/1031/list.htm"
+
+[SiteRule.Item.casee.Item.notice]
+Type = "学院"
+Site = "通知公告"
+Section = "通知公告"
+Tag = "casee_notice"
+URL = "https://casee.hdu.edu.cn/1037/list.htm"
+
+[SiteRule.Item.casee.Item.service]
+Type = "学院"
+Site = "评价服务"
+Section = "评价服务"
+Tag = "casee_service"
+URL = "https://casee.hdu.edu.cn/1034/list.htm"
+
+[SiteRule.Item.casee.Item.rank]
+Type = "学院"
+Site = "排行榜发布"
+Section = "排行榜"
+Tag = "casee_rank"
+URL = "https://casee.hdu.edu.cn/pxbfb/list.htm"

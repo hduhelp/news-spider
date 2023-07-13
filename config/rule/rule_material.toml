@@ -1,0 +1,70 @@
+
+[SiteRule.Item.cmee]
+Type = "学院"
+Site = "材料与环境工程学院"
+Section = "材环"
+Tag = "cmee"
+URL = "https://cmee.hdu.edu.cn"
+ListRuleUrl = "ul.wp_article_list>li>div>span.Article_Title>a"
+ListRulesTitle = "ul.wp_article_list>li>div>span.Article_Title>a"
+ListRulesDate = "ul.wp_article_list>li>div>span.Article_PublishDate"
+ContentRule = "div.wp_articlecontent"
+TittleRule = "title"
+
+[SiteRule.Item.cmee.Item]
+
+[SiteRule.Item.cmee.Item.news]
+Type = "学院"
+Site = "学院动态"
+Section = "学院动态"
+Tag = "cmee_news"
+URL = "https://cmee.hdu.edu.cn/495/list.htm"
+
+[SiteRule.Item.cmee.Item.notice]
+Type = "学院"
+Site = "通知公告"
+Section = "通知公告"
+Tag = "cmee_notice"
+URL = "https://cmee.hdu.edu.cn/494/list.htm"
+
+[SiteRule.Item.cmee.Item.edu]
+Type = "学院"
+Site = "教学信息"
+Section = "教学信息"
+Tag = "cmee_edu"
+URL = "https://cmee.hdu.edu.cn/496/list.htm"
+
+[SiteRule.Item.cmee.Item.science]
+Type = "学院"
+Site = "科研信息"
+Section = "科研信息"
+Tag = "cmee_science"
+URL = "https://cmee.hdu.edu.cn/599/list.htm"
+
+[SiteRule.Item.cmee.Item.student]
+Type = "学院"
+Site = "学生工作"
+Section = "学生工作"
+Tag = "cmee_student"
+URL = "https://cmee.hdu.edu.cn/490/list.htm"
+
+[SiteRule.Item.cmee.Item.ccp]
+Type = "学院"
+Site = "党建思政"
+Section = "党建思政"
+Tag = "cmee_ccp"
+URL = "https://cmee.hdu.edu.cn/491/list.htm"
+
+[SiteRule.Item.cmee.Item.new]
+Type = "学院"
+Site = "招生信息"
+Section = "招生信息"
+Tag = "cmee_new"
+URL = "https://cmee.hdu.edu.cn/489/list.htm"
+
+[SiteRule.Item.cmee.Item.show]
+Type = "学院"
+Site = "图说材环"
+Section = "图说材环"
+Tag = "cmee_show"
+URL = "https://cmee.hdu.edu.cn/tsch/list.htm"

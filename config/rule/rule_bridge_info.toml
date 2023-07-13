@@ -1,0 +1,27 @@
+[SiteRule.Item.bri]
+Type = "学院"
+Site = "一带一路信息技术研究院"
+Section = "一带一路信息技术研究院"
+Tag = "bri"
+URL = "https://bri.hdu.edu.cn"
+ListRuleUrl = "ul[class~=news_list]>li>span.news_title>a"
+ListRulesTitle = "ul[class~=news_list]>li>span.news_title>a"
+ListRulesDate = "ul[class~=news_list]>li>span.news_meta"
+ContentRule = "div.wp_articlecontent"
+TittleRule = "title"
+
+[SiteRule.Item.bri.Item]
+
+[SiteRule.Item.bri.Item.news]
+Type = "学院"
+Site = "新闻公告"
+Section = "新闻公告"
+Tag = "bri_news"
+URL = "https://bri.hdu.edu.cn/4409/list.htm"
+
+[SiteRule.Item.bri.Item.project]
+Type = "学院"
+Site = "研究项目"
+Section = "研究项目"
+Tag = "bri_project"
+URL = "https://bri.hdu.edu.cn/yjxm/list.htm"

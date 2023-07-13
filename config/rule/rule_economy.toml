@@ -1,0 +1,56 @@
+
+[SiteRule.Item.economics]
+Type = "学院"
+Site = "经济学院"
+Section = "经济"
+Tag = "economics"
+URL = "https://economics.hdu.edu.cn"
+ListRuleUrl = "ul.c-right-newslist-ul>li>a"
+ListRulesTitle = "ul.c-right-newslist-ul>li>a"
+ListRulesDate = "ul.c-right-newslist-ul>li>span.date2"
+ContentRule = "div.wp_articlecontent"
+TittleRule = "title"
+
+[SiteRule.Item.economics.Item]
+
+[SiteRule.Item.economics.Item.news]
+Type = "学院"
+Site = "学院新闻"
+Section = "学院新闻"
+Tag = "economics_news"
+URL = "https://economics.hdu.edu.cn/2458/list.htm"
+
+[SiteRule.Item.economics.Item.science]
+Type = "学院"
+Site = "科研动态"
+Section = "科研动态"
+Tag = "economics_science"
+URL = "https://economics.hdu.edu.cn/2472/list.htm"
+
+[SiteRule.Item.economics.Item.student]
+Type = "学院"
+Site = "学生天地"
+Section = "学生天地"
+Tag = "economics_student"
+URL = "https://economics.hdu.edu.cn/2486/list.htm"
+
+[SiteRule.Item.economics.Item.notice]
+Type = "学院"
+Site = "通知公告"
+Section = "通知公告"
+Tag = "economics_notice"
+URL = "https://economics.hdu.edu.cn/2556/list.htm"
+
+[SiteRule.Item.economics.Item.bkedu]
+Type = "学院"
+Site = "本科生培养"
+Section = "本科生培养"
+Tag = "economics_bkedu"
+URL = "https://economics.hdu.edu.cn/2443/list.htm"
+
+[SiteRule.Item.economics.Item.yjsedu]
+Type = "学院"
+Site = "研究生培养"
+Section = "研究生培养"
+Tag = "economics_yjsedu"
+URL = "https://economics.hdu.edu.cn/2467/list.htm"

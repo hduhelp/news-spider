@@ -1,0 +1,118 @@
+[SiteRule.Item.jwc]
+Type = "部门"
+Site = "教务处"
+Section = "教务处"
+Tag = "jwc"
+URL = "https://jwc.hdu.edu.cn"
+ListRuleUrl = "#wp_news_w105 a[href]"
+ListRulesTitle = "#wp_news_w105 a[href]"
+ListRulesDate = "#wp_news_w105 div.date"
+ContentRule = "div.wp_articlecontent"
+TittleRule = "title"
+
+[SiteRule.Item.jwc.Item]
+
+[SiteRule.Item.jwc.Item.notice]
+Type = "部门"
+Site = "通知公告"
+Section = "通知公告"
+Tag = "jwc_notice"
+URL = "https://jwc.hdu.edu.cn/tzgg/list.htm"
+
+[SiteRule.Item.jwc.Item.news]
+Type = "部门"
+Site = "新闻动态"
+Section = "新闻动态"
+Tag = "jwc_news"
+URL = "https://jwc.hdu.edu.cn/xwdt/list.htm"
+
+[SiteRule.Item.jwc.Item.studentstatus]
+Type = "部门"
+Site = "学籍管理"
+Section = "学籍管理"
+Tag = "jwc_studentstatus"
+URL = "https://jwc.hdu.edu.cn/xjgl/list.htm"
+
+[SiteRule.Item.jwc.Item.exam]
+Type = "部门"
+Site = "考试管理"
+Section = "考试管理"
+Tag = "jwc_exam"
+URL = "https://jwc.hdu.edu.cn/ksgl/list.htm"
+
+[SiteRule.Item.jwc.Item.select]
+Type = "部门"
+Site = "排课选课"
+Section = "排课选课"
+Tag = "jwc_select"
+URL = "https://jwc.hdu.edu.cn/pkxk/list.htm"
+
+[SiteRule.Item.jwc.Item.score]
+Type = "部门"
+Site = "成绩管理"
+Section = "成绩管理"
+Tag = "jwc_score"
+URL = "https://jwc.hdu.edu.cn/cjgl/list.htm"
+
+[SiteRule.Item.jwc.Item.graduation]
+Type = "部门"
+Site = "毕业管理"
+Section = "毕业管理"
+Tag = "jwc_graduation"
+URL = "https://jwc.hdu.edu.cn/bygl/list.htm"
+
+[SiteRule.Item.jwc.Item.practicalteaching]
+Type = "部门"
+Site = "教学实践"
+Section = "教学实践"
+Tag = "jwc_practicalteaching"
+URL = "https://jwc.hdu.edu.cn/sjjx/list.htm"
+
+[SiteRule.Item.jwc.Item.graduationproject]
+Type = "部门"
+Site = "毕业设计"
+Section = "毕业设计"
+Tag = "jwc_graduationproject"
+URL = "https://jwc.hdu.edu.cn/bysj/list.htm"
+
+[SiteRule.Item.jwc.Item.practicebase]
+Type = "部门"
+Site = "实践基地"
+Section = "实践基地"
+Tag = "jwc_practicebase"
+URL = "https://jwc.hdu.edu.cn/sjjd/list.htm"
+
+[SiteRule.Item.jwc.Item.disciplinecompetition]
+Type = "部门"
+Site = "学科竞赛"
+Section = "学科竞赛"
+Tag = "jwc_disciplinecompetition"
+URL = "https://jwc.hdu.edu.cn/xkjs/list.htm"
+
+[SiteRule.Item.jwc.Item.professionalconstruction]
+Type = "部门"
+Site = "专业建设"
+Section = "专业建设"
+Tag = "jwc_professionalconstruction"
+URL = "https://jwc.hdu.edu.cn/zyjs/list.htm"
+
+[SiteRule.Item.jwc.Item.curriculumconstruction]
+Type = "部门"
+Site = "课程建设"
+Section = "课程建设"
+Tag = "jwc_curriculumconstruction"
+URL = "https://jwc.hdu.edu.cn/kcjs/list.htm"
+
+[SiteRule.Item.jwc.Item.teachingmaterialconstruction]
+Type = "部门"
+Site = "教材建设"
+Section = "教材建设"
+Tag = "jwc_teachingmaterialconstruction"
+URL = "https://jwc.hdu.edu.cn/jcjs/list.htm"
+
+[SiteRule.Item.jwc.Item.integratedmanagement]
+Type = "部门"
+Site = "综合管理"
+Section = "综合管理"
+Tag = "jwc_integratedmanagement"
+URL = "https://jwc.hdu.edu.cn/zhgl/list.htm"

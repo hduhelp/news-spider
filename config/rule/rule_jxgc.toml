@@ -1,0 +1,50 @@
+
+[SiteRule.Item.jxgc]
+Type = "学院"
+Site = "机械工程学院"
+Section = "机械"
+Tag = "jxgc"
+URL = "https://mechanical.hdu.edu.cn"
+ListRuleUrl = ".news_title>a"
+ListRulesTitle = ".news_title>a"
+ListRulesDate = ".news_meta"
+ContentRule = "div.wp_articlecontent"
+TittleRule = "h1.arti_title"
+DateRule = ".arti_update"
+
+[SiteRule.Item.jxgc.Item]
+
+[SiteRule.Item.jxgc.Item.notice]
+Type = "学院"
+Site = "通知公告"
+Section = "通知"
+Tag = "jxgc_notice"
+URL = "https://mechanical.hdu.edu.cn/77/list.htm"
+
+[SiteRule.Item.jxgc.Item.regularnotice]
+Type = "学院"
+Site = "本科教学通知公告"
+Section = "本科通知"
+Tag = "jxgc_regularnotice"
+URL = "https://mechanical.hdu.edu.cn/80/list.htm"
+
+[SiteRule.Item.jxgc.Item.yjsnotice]
+Type = "学院"
+Site = "研究生通知公告"
+Section = "研究生通知"
+Tag = "jxgc_yjsnotice"
+URL = "https://mechanical.hdu.edu.cn/50/list.htm"
+
+[SiteRule.Item.jxgc.Item.news]
+Type = "学院"
+Site = "新闻动态"
+Section = "新闻动态"
+Tag = "jxgc_news"
+URL = "https://mechanical.hdu.edu.cn/78/list.htm"
+
+[SiteRule.Item.jxgc.Item.science]
+Type = "学院"
+Site = "科研通告"
+Section = "科研通告"
+Tag = "jxgc_science"
+URL = "https://mechanical.hdu.edu.cn/79/list.htm"

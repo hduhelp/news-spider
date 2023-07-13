@@ -1,0 +1,26 @@
+[SiteRule.Item.fcloud]
+Type = "学院"
+Site = "中国财务云服务研究院"
+Section = "财务"
+Tag = "fcloud"
+URL = "https://fcloud.hdu.edu.cn"
+ListRuleUrl = "ul[class~=News-pagebox]>a"
+ListRulesTitle = "ul[class~=News-pagebox]>a>div.ns-textbox>h2"
+ListRulesDate = "ul[class~=News-pagebox]>a>div.ns-textbox>span"
+ContentRule = "div.wp_articlecontent"
+
+[SiteRule.Item.fcloud.Item]
+
+[SiteRule.Item.fcloud.Item.cw]
+Type = "学院"
+Site = "公告新闻-管理会计中心"
+Section = "公告新闻-财务云研究院"
+Tag = "fcloud_cw"
+URL = "https://fcloud.hdu.edu.cn/4471/list.htm"
+
+[SiteRule.Item.fcloud.Item.gl]
+Type = "学院"
+Site = "公告新闻-管理会计中心"
+Section = "公告新闻-管理会计中心"
+Tag = "fcloud_gl"
+URL = "https://fcloud.hdu.edu.cn/4472/list.htm"

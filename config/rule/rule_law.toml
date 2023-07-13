@@ -1,0 +1,49 @@
+
+[SiteRule.Item.rwxy]
+Type = "学院"
+Site = "法学院"
+Section = "法学院"
+Tag = "rwxy"
+URL = "https://rwxy.hdu.edu.cn"
+ListRuleUrl = "ul.wp_article_list>li>div>span.Article_Title>a"
+ListRulesTitle = "ul.wp_article_list>li>div>span.Article_Title>a"
+ListRulesDate = "ul.wp_article_list>li>div>span.Article_PublishDate"
+ContentRule = "div.wp_articlecontent"
+TittleRule = "h1.arti_title"
+
+[SiteRule.Item.rwxy.Item]
+
+[SiteRule.Item.rwxy.Item.student]
+Type = "学院"
+Site = "学生信息"
+Section = "学生信息"
+Tag = "rwxy_student"
+URL = "https://rwxy.hdu.edu.cn/xsxx/list.htm"
+
+[SiteRule.Item.rwxy.Item.news]
+Type = "学院"
+Site = "学院新闻"
+Section = "学院新闻"
+Tag = "rwxy_news"
+URL = "https://rwxy.hdu.edu.cn/xyxw/list.htm"
+
+[SiteRule.Item.rwxy.Item.notice]
+Type = "学院"
+Site = "通知公告"
+Section = "通知公告"
+Tag = "rwxy_notice"
+URL = "https://rwxy.hdu.edu.cn/tzgg/list.htm"
+
+[SiteRule.Item.rwxy.Item.edu]
+Type = "学院"
+Site = "教学信息"
+Section = "教学信息"
+Tag = "rwxy_edu"
+URL = "https://rwxy.hdu.edu.cn/1177/list.htm"
+
+[SiteRule.Item.rwxy.Item.science]
+Type = "学院"
+Site = "科研动态"
+Section = "科研动态"
+Tag = "rwxy_science"
+URL = "https://rwxy.hdu.edu.cn/1189/list.htm"

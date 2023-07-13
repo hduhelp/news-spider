@@ -1,0 +1,55 @@
+[SiteRule.Item.zyxy]
+Type = "学院"
+Site = "卓越学院"
+Section = "卓越"
+Tag = "zyxy"
+URL = "https://zhuoyue.hdu.edu.cn"
+ListRuleUrl = "div[portletmode=simpleList]>div>p.title-p>a"
+ListRulesTitle = "div[portletmode=simpleList]>div>p.title-p>a"
+ListRulesDate = "div[portletmode=simpleList]>div>p.date-p"
+ContentRule = "div.wp_articlecontent"
+TittleRule = "title"
+
+[SiteRule.Item.zyxy.Item]
+
+[SiteRule.Item.zyxy.Item.news]
+Type = "学院"
+Site = "学院新闻"
+Section = "学院新闻"
+Tag = "zyxy_news"
+URL = "https://zhuoyue.hdu.edu.cn/3415/list.htm"
+
+[SiteRule.Item.zyxy.Item.notice]
+Type = "学院"
+Site = "学院通知"
+Section = "通知"
+Tag = "zyxy_notice"
+URL = "https://zhuoyue.hdu.edu.cn/3416/list.htm"
+
+[SiteRule.Item.zyxy.Item.spech]
+Type = "学院"
+Site = "卓越讲座"
+Section = "讲座"
+Tag = "zyxy_spech"
+URL = "https://zhuoyue.hdu.edu.cn/3402/list.htm"
+
+[SiteRule.Item.zyxy.Item.show]
+Type = "学院"
+Site = "学子风采"
+Section = "学子风采"
+Tag = "zyxy_show"
+URL = "https://zhuoyue.hdu.edu.cn/3434/list.htm"
+
+[SiteRule.Item.zyxy.Item.student]
+Type = "学院"
+Site = "学工通知"
+Section = "学工通知"
+Tag = "zyxy_student"
+URL = "https://zhuoyue.hdu.edu.cn/3423/list.htm"
+
+[SiteRule.Item.zyxy.Item.party]
+Type = "学院"
+Site = "团学动态"
+Section = "团学动态"
+Tag = "zyxy_party"
+URL = "https://zhuoyue.hdu.edu.cn/3424/list.htm"

@@ -1,0 +1,49 @@
+
+[SiteRule.Item.fedu]
+Type = "学院"
+Site = "外国语学院"
+Section = "外国语"
+Tag = "fedu"
+URL = "https://foreignedu.hdu.edu.cn"
+ListRuleUrl = "ul.shkj-list>li>a"
+ListRulesTitle = "ul.shkj-list>li>a>b"
+ListRulesDate = "ul.shkj-list>li>span"
+ContentRule = "div.wp_articlecontent"
+TittleRule = "title"
+
+[SiteRule.Item.fedu.Item]
+
+[SiteRule.Item.fedu.Item.news]
+Type = "学院"
+Site = "学院新闻"
+Section = "学院新闻"
+Tag = "fedu_news"
+URL = "https://foreignedu.hdu.edu.cn/1267/list.htm"
+
+[SiteRule.Item.fedu.Item.notice]
+Type = "学院"
+Site = "学院通知"
+Section = "学院通知"
+Tag = "fedu_notice"
+URL = "https://foreignedu.hdu.edu.cn/1268/list.htm"
+
+[SiteRule.Item.fedu.Item.edu]
+Type = "学院"
+Site = "教学通知"
+Section = "教学通知"
+Tag = "fedu_edu"
+URL = "https://foreignedu.hdu.edu.cn/1269/list.htm"
+
+[SiteRule.Item.fedu.Item.science]
+Type = "学院"
+Site = "科研通知"
+Section = "科研通知"
+Tag = "fedu_science"
+URL = "https://foreignedu.hdu.edu.cn/1270/list.htm"
+
+[SiteRule.Item.fedu.Item.staff]
+Type = "学院"
+Site = "学工通知"
+Section = "学工通知"
+Tag = "fedu_staff"
+URL = "https://foreignedu.hdu.edu.cn/xgtz/list.htm"

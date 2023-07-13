@@ -1,0 +1,35 @@
+
+[SiteRule.Item.ped]
+Type = "学院"
+Site = "体育教育部"
+Section = "体育教育部"
+Tag = "ped"
+URL = "https://ped.hdu.edu.cn"
+ListRuleUrl = "div.newC>ul>li>a"
+ListRulesTitle = "div.newC>ul>li>a"
+ListRulesDate = "div.newC>ul>li>span"
+ContentRule = "div.wp_articlecontent"
+TittleRule = "title"
+
+[SiteRule.Item.ped.Item]
+
+[SiteRule.Item.ped.Item.news]
+Type = "学院"
+Site = "新闻速递"
+Section = "新闻速递"
+Tag = "ped_news"
+URL = "https://ped.hdu.edu.cn/577/list.htm"
+
+[SiteRule.Item.ped.Item.edu]
+Type = "学院"
+Site = "教育工作"
+Section = "教育工作"
+Tag = "ped_edu"
+URL = "https://ped.hdu.edu.cn/578/list.htm"
+
+[SiteRule.Item.ped.Item.compete]
+Type = "学院"
+Site = "群体竞赛"
+Section = "群体竞赛"
+Tag = "ped_compete"
+URL = "https://ped.hdu.edu.cn/579/list.htm"

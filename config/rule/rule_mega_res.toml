@@ -1,0 +1,49 @@
+
+[SiteRule.Item.icam]
+Type = "学院"
+Site = "浙江磁性材料研究院"
+Section = "浙磁院"
+Tag = "icam"
+URL = "https://icam.hdu.edu.cn/"
+ListRuleUrl = "ul.wp_article_list>li>div>span.Article_Title>a"
+ListRulesTitle = "ul.wp_article_list>li>div>span.Article_Title>a"
+ListRulesDate = "ul.wp_article_list>li>div>span.Article_PublishDate"
+ContentRule = "div.wp_articlecontent"
+TittleRule = "title"
+
+[SiteRule.Item.icam.Item]
+
+[SiteRule.Item.icam.Item.news]
+Type = "学院"
+Site = "新闻动态"
+Section = "新闻动态"
+Tag = "icam_news"
+URL = "https://icam.hdu.edu.cn/xwdt/list.htm"
+
+[SiteRule.Item.icam.Item.notice]
+Type = "学院"
+Site = "通知公告"
+Section = "通知公告"
+Tag = "icam_notice"
+URL = "https://icam.hdu.edu.cn/tzgg/list.htm"
+
+[SiteRule.Item.icam.Item.scholar]
+Type = "学院"
+Site = "学术会议"
+Section = "学术会议"
+Tag = "icam_scholar"
+URL = "https://icam.hdu.edu.cn/xshy/list.htm"
+
+[SiteRule.Item.icam.Item.science]
+Type = "学院"
+Site = "科研进展"
+Section = "科研进展"
+Tag = "icam_science"
+URL = "https://icam.hdu.edu.cn/kyjz/list.htm"
+
+[SiteRule.Item.icam.Item.show]
+Type = "学院"
+Site = "研究院风采"
+Section = "研究院风采"
+Tag = "icam_show"
+URL = "https://icam.hdu.edu.cn/yjyfc/list.htm"

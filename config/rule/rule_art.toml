@@ -1,0 +1,42 @@
+
+[SiteRule.Item.syxy]
+Type = "学院"
+Site = "人文艺术与数字媒体学院"
+Section = "数媒"
+Tag = "syxy"
+URL = "https://syxy.hdu.edu.cn"
+ListRuleUrl = "#wp_news_w23 a[href]"
+ListRulesTitle = "#wp_news_w23 a[href]"
+ListRulesDate = "#wp_news_w23 span"
+ContentRule = "div.wp_articlecontent"
+TittleRule = "title"
+
+[SiteRule.Item.syxy.Item]
+
+[SiteRule.Item.syxy.Item.news]
+Type = "学院"
+Site = "学院新闻"
+Section = "学院新闻"
+Tag = "syxy_news"
+URL = "https://syxy.hdu.edu.cn/2214/list.htm"
+
+[SiteRule.Item.syxy.Item.notice]
+Type = "学院"
+Site = "学院公告"
+Section = "学院公告"
+Tag = "syxy_notice"
+URL = "https://syxy.hdu.edu.cn/2213/list.htm"
+
+[SiteRule.Item.syxy.Item.edu]
+Type = "学院"
+Site = "教学信息"
+Section = "教学信息"
+Tag = "syxy_edu"
+URL = "https://syxy.hdu.edu.cn/2206/list.htm"
+
+[SiteRule.Item.syxy.Item.student]
+Type = "学院"
+Site = "学工资讯"
+Section = "学工资讯"
+Tag = "syxy_student"
+URL = "https://syxy.hdu.edu.cn/2209/list.htm"

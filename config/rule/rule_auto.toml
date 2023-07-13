@@ -1,0 +1,41 @@
+[SiteRule.Item.auto]
+Type = "学院"
+Site = "自动化学院"
+Section = "自动化"
+Tag = "auto"
+URL = "https://auto.hdu.edu.cn"
+ListRuleUrl = "div[portletmode=simpleList]>div>div.newstitle>a"
+ListRulesTitle = "div[portletmode=simpleList]>div>div.newstitle>a"
+ListRulesDate = "div[portletmode=simpleList]>div>div.newsinfo"
+ContentRule = "div.wp_articlecontent"
+TittleRule = "title"
+
+[SiteRule.Item.auto.Item]
+
+[SiteRule.Item.auto.Item.news]
+Type = "学院"
+Site = "新闻动态"
+Section = "新闻动态"
+Tag = "auto_news"
+URL = "https://auto.hdu.edu.cn/3778/list.htm"
+
+[SiteRule.Item.auto.Item.bkedu]
+Type = "学院"
+Site = "本科教育"
+Section = "本科教育"
+Tag = "auto_bkedu"
+URL = "https://auto.hdu.edu.cn/3745/list.htm"
+
+[SiteRule.Item.auto.Item.yjsedu]
+Type = "学院"
+Site = "研究生教育"
+Section = "研究生教育"
+Tag = "auto_yjsedu"
+URL = "https://auto.hdu.edu.cn/3754/list.htm"
+
+[SiteRule.Item.auto.Item.notice]
+Type = "学院"
+Site = "通知公告"
+Section = "通知公告"
+Tag = "auto_notice"
+URL = "https://auto.hdu.edu.cn/3779/list.htm"

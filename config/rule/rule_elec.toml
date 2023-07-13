@@ -1,0 +1,49 @@
+
+[SiteRule.Item.elec]
+Type = "学院"
+Site = "电子信息学院"
+Section = "电子"
+Tag = "elec"
+URL = "https://elec.hdu.edu.cn"
+ListRuleUrl = "ul.wp_article_list>li>div>span.Article_Title>a"
+ListRulesTitle = "ul.wp_article_list>li>div>span.Article_Title>a"
+ListRulesDate = "ul.wp_article_list>li>div>span.Article_PublishDate"
+ContentRule = "div.wp_articlecontent"
+TittleRule = "title"
+
+[SiteRule.Item.elec.Item]
+
+[SiteRule.Item.elec.Item.notice]
+Type = "学院"
+Site = "通知公告"
+Section = "通知公告"
+Tag = "elec_notice"
+URL = "https://elec.hdu.edu.cn/1787/list.htm"
+
+[SiteRule.Item.elec.Item.news]
+Type = "学院"
+Site = "学院新闻"
+Section = "学院新闻"
+Tag = "elec_news"
+URL = "https://elec.hdu.edu.cn/1776/list.htm"
+
+[SiteRule.Item.elec.Item.edu]
+Type = "学院"
+Site = "教学信息"
+Section = "教学信息"
+Tag = "elec_edu"
+URL = "https://elec.hdu.edu.cn/jxxx/list.htm"
+
+[SiteRule.Item.elec.Item.inter]
+Type = "学院"
+Site = "国际交流"
+Section = "国际交流"
+Tag = "elec_inter"
+URL = "https://elec.hdu.edu.cn/gjjl/list.htm"
+
+[SiteRule.Item.elec.Item.show]
+Type = "学院"
+Site = "学院风采"
+Section = "学院风采"
+Tag = "elec_show"
+URL = "https://elec.hdu.edu.cn/1791/list.htm"

@@ -1,0 +1,7 @@
+[SiteRule]
+Type = "学校"
+Site = "杭州电子科技大学"
+Section = "杭电"
+Tag = ""
+URL = "https://www.hdu.edu.cn"
+ContentRule = "div.article>div.con"

@@ -1,0 +1,48 @@
+[SiteRule.Item.kjxy]
+Type = "学院"
+Site = "会计学院"
+Section = "会计"
+Tag = "kjxy"
+URL = "https://accounting.hdu.edu.cn"
+ListRuleUrl = "tr>td.zixun_font1>a[title]"
+ListRulesTitle = "tr>td.zixun_font1>a[title]"
+ListRulesDate = "tr>td.zixun_font2"
+ContentRule = "div.wp_articlecontent"
+TittleRule = "title"
+
+[SiteRule.Item.kjxy.Item]
+
+[SiteRule.Item.kjxy.Item.news]
+Type = "学院"
+Site = "学院动态"
+Section = "学院动态"
+Tag = "kjxy_news"
+URL = "https://accounting.hdu.edu.cn/1664/list.htm"
+
+[SiteRule.Item.kjxy.Item.bk]
+Type = "学院"
+Site = "本科教学"
+Section = "本科教学"
+Tag = "kjxy_bk"
+URL = "https://accounting.hdu.edu.cn/1649/list.htm"
+
+[SiteRule.Item.kjxy.Item.yjs]
+Type = "学院"
+Site = "研究生教学"
+Section = "研究生教学"
+Tag = "kjxy_yjs"
+URL = "https://accounting.hdu.edu.cn/1645/list.htm"
+
+[SiteRule.Item.kjxy.Item.science]
+Type = "学院"
+Site = "科研信息"
+Section = "科研信息"
+Tag = "kjxy_science"
+URL = "https://accounting.hdu.edu.cn/1641/list.htm"
+
+[SiteRule.Item.kjxy.Item.staff]
+Type = "学院"
+Site = "学工信息"
+Section = "学工信息"
+Tag = "kjxy_staff"
+URL = "https://accounting.hdu.edu.cn/1669/list.htm"
